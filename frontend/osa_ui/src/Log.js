@@ -21,12 +21,14 @@ const Log = (props) => {
   return (
     <div style={scrollStyleDiv}>
       <span>Communication logs between Instrument and User</span>
+      <br/>
       {
         /* loops over the log object */
         props.logs.map(log => {
           return (
             <>
               <span key={log.timestamp}>{log.timestamp} : {log.action}</span>
+              <br/>
             </>
           );
         })
