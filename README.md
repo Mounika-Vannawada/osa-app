@@ -20,6 +20,13 @@ To get started working on this project, install Python3 as follows
 [Download](https://www.python.org/downloads/) the appropriate installer for your operating system and
 run it on your machine.
 
+
+Install Node.js and npm as follows 
+
+[Download](https://nodejs.org/en/) the appropriate installer for your operating system and
+run it on your machine.
+
+
 ##### Creating and Activating Virtual Environment
 
 ```
