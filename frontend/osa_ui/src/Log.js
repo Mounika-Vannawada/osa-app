@@ -21,6 +21,7 @@ const Log = (props) => {
   return (
     <div style={scrollStyleDiv}>
       <span>Communication logs between Instrument and User</span>
+      <br/>
       {
         /* loops over the log object */
         props.logs.map(log => {
