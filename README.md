@@ -31,7 +31,8 @@ run it on your machine.
 
 ```
 python -m venv path/to/osa_app
-source path/to/app/bin/activate
+source path/to/app/bin/activate # for Mac OS/ Linux
+path\to\osa_app\Scripts\Activate.ps1 # for Windows
 ``` 
 
 ### Installing
