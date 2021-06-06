@@ -27,6 +27,7 @@ const Log = (props) => {
           return (
             <>
               <span key={log.timestamp}>{log.timestamp} : {log.action}</span>
+              <br/>
             </>
           );
         })
