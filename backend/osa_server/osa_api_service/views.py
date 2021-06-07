@@ -55,9 +55,9 @@ def start(request):
                     x_increment = data["xincrement"]
                     y_values_count = len(data['ydata'])
                     xValues = []
-                    #x_val = x_val_range.replace('+READY>[', '').split(',')[0]
+                    x_val = x_val_range.replace('+READY>[', '').split(',')[0]
                     for i in range(y_values_count):
-                        xValues.append(i*x_increment)
+                        xValues.append(float(x_val) + i*x_increment)
                     context = {"xValues": xValues,
                         "yValues": data['ydata'], 
                         "timestamp": utc_iso_format(data['timestamp'])}
